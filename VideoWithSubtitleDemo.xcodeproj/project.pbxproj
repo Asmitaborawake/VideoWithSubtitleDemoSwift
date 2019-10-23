@@ -12,6 +12,9 @@
 		BA5918EA23607BC5000E8384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5918E823607BC5000E8384 /* Main.storyboard */; };
 		BA5918EC23607BCA000E8384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5918EB23607BCA000E8384 /* Assets.xcassets */; };
 		BA5918EF23607BCA000E8384 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5918ED23607BCA000E8384 /* LaunchScreen.storyboard */; };
+		BA5918F923607C0D000E8384 /* Subtitles.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5918F623607C0B000E8384 /* Subtitles.swift */; };
+		BA5918FA23607C0D000E8384 /* trailer_720p.mov in Resources */ = {isa = PBXBuildFile; fileRef = BA5918F723607C0C000E8384 /* trailer_720p.mov */; };
+		BA5918FB23607C0D000E8384 /* trailer_720p.srt in Resources */ = {isa = PBXBuildFile; fileRef = BA5918F823607C0D000E8384 /* trailer_720p.srt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		BA5918EB23607BCA000E8384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA5918EE23607BCA000E8384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA5918F023607BCA000E8384 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5918F623607C0B000E8384 /* Subtitles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtitles.swift; sourceTree = "<group>"; };
+		BA5918F723607C0C000E8384 /* trailer_720p.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = trailer_720p.mov; sourceTree = "<group>"; };
+		BA5918F823607C0D000E8384 /* trailer_720p.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = trailer_720p.srt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,9 @@
 		BA5918D823607BC5000E8384 = {
 			isa = PBXGroup;
 			children = (
+				BA5918F623607C0B000E8384 /* Subtitles.swift */,
+				BA5918F723607C0C000E8384 /* trailer_720p.mov */,
+				BA5918F823607C0D000E8384 /* trailer_720p.srt */,
 				BA5918E323607BC5000E8384 /* VideoWithSubtitleDemo */,
 				BA5918E223607BC5000E8384 /* Products */,
 			);
@@ -122,9 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5918FB23607C0D000E8384 /* trailer_720p.srt in Resources */,
 				BA5918EF23607BCA000E8384 /* LaunchScreen.storyboard in Resources */,
 				BA5918EC23607BCA000E8384 /* Assets.xcassets in Resources */,
 				BA5918EA23607BC5000E8384 /* Main.storyboard in Resources */,
+				BA5918FA23607C0D000E8384 /* trailer_720p.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA5918F923607C0D000E8384 /* Subtitles.swift in Sources */,
 				BA5918E723607BC5000E8384 /* ViewController.swift in Sources */,
 				BA5918E523607BC5000E8384 /* AppDelegate.swift in Sources */,
 			);
